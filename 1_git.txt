@@ -1,0 +1,20 @@
+笔记介绍
+
+git 分布式版本控制工具
+github git官方的代码管理中心
+	push 代码推送
+	pull 代码拉取
+	clone 代码克隆
+
+SSH免密登陆
+
+Idea集成github
+
+Gitee码云
+	创建远程库
+	Idea集成Gitee
+
+GItLab 基于局域网的代码管理中心
+	Idea集成GitLab
+
+重点 Git Github GitLab Gitee

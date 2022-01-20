@@ -1,0 +1,21 @@
+git安装位置最好没有中文没有空格
+
+git常用命令
+git config --global user.name 用户名
+	用来设置用户签名
+git config --global user.email 邮箱
+	用来设置用户签名
+用户签名和登录github的账号没有任何关系，邮箱地址也可以随意填写，git不会验证
+
+git init
+	初始化本地库
+git status
+	查看本地库状态
+git add 文件名
+	添加到暂存区
+git commit -m "日志信息" 文件名
+	提交到本地库
+git reflog
+	查看历史记录
+git reset --hard 版本号
+	版本穿梭
