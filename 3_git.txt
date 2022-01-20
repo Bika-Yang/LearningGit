@@ -19,3 +19,9 @@ git reflog
 	查看历史记录
 git reset --hard 版本号
 	版本穿梭
+git rm --cached 文件名
+	删除暂存区中的文件
+git reflog
+	查看历史信息
+git log
+	查看详细日志
