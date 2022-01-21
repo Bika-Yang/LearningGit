@@ -28,3 +28,13 @@ git log
 
 HEAD文件描述了当前所在的本地库分支
 /refs/head/master描述了在当前分支下处在的版本号
+
+分支命令
+git branch 分支名
+	创建分支
+git branch -v
+	查看分支
+git checkout 分支名
+	切换分支
+git merge 分支名
+	把指定的分支合并得当前分支上
