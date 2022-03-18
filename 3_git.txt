@@ -84,3 +84,6 @@ git pull 远程库地址别名 远程分支名
 删除远程仓库分支步骤
 git push 远程仓库别名 :远程仓库的分支名
 	如：git push origin :newbrach
+
+
+123456789
