@@ -38,6 +38,10 @@ git branch 分支名
 	创建分支
 git branch -v
 	查看分支
+git branch -a
+	查看所有分支
+git branch -r
+	查看所有远程仓库分支
 git checkout 分支名
 	切换分支
 git merge 分支名
@@ -66,3 +70,17 @@ git clone 远程地址
 git pull 远程库地址别名 远程分支名
 	将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并
 （别名也可以用地址代替）
+
+远程仓库创建分支步骤
+1、git clone 远程仓库地址
+	说明：在本地还没有该下拉过这个远程仓库前，需要先下拉远程仓库，在本地进行操作
+2、git remote add 远程仓库别名a 远程仓库地址
+	说明：下拉仓库后，为便于操作，需要给它起一个远程仓库别名a，并将这个名称远程仓库地址进行关联
+3、git chenkout -b newbranchname
+	说明：在本地创建并切换到一个名为newbranchname的分支
+4、git push 远程仓库别名a newbranchname
+	说明：将新的分支推送到远程仓库，这样，在远程仓库就会自动创建一个名为newbranchname（与本地新分支名称相同）的分支
+
+删除远程仓库分支步骤
+git push 远程仓库别名 :远程仓库的分支名
+	如：git push origin :newbrach
